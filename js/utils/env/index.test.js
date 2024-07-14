@@ -1,4 +1,4 @@
-import { isInTestEnv } from ".index";
+import { isInTestEnv } from "./index";
 
 describe("isInTestEnv Unit Test Suites", () => {
   it("should be in test env", () => {
