@@ -1,16 +1,16 @@
 sudo: false
 language: node_js
 node_js:
-- '14'
+  - "18.16"
 branches:
   only:
-  - main
+    - main
 cache:
   directories:
-  - node_modules
+    - node_modules
 before_install:
-- npm update
+  - npm update
 install:
-- npm install
+  - npm install
 script:
-- npm test
+  - npm test
