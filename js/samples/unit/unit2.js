@@ -1,9 +1,6 @@
 /**
- *
- * @param{number} age
- * @returns{string}
+ * 
+ * @param {number} age 
+ * @returns {string}
  */
-
-export const getAge = (age) => {
-  `Vous avez actuellement ${age} ans`;
-};
+export const getAge = age => `Vous avez actuellement ${age} ans`
